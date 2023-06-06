@@ -1,0 +1,4 @@
+<h1>{{ title }}</h1>
+<img [@enlarge]="isEnlarge ? 'end' : 'start'" src="assets/puppy.jpeg" style="height: 200px" />
+<br />
+<button (click)='triggerAnimation()'>{{ this.buttonText }}</button>
